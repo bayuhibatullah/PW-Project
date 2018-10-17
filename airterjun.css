@@ -1,0 +1,18 @@
+.main .gambar img{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#tancak{
+  width: 300px;
+  height: 500px;
+  margin-left: 30%;
+}
+#raung{
+  width: 400px;
+  height: 300px;
+  margin-left: 25%;
+}
+.main .isi{
+  text-align: justify;
+  line-height: 20px;
+}
