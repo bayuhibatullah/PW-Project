@@ -1,0 +1,52 @@
+body {
+  font-size: 13px;
+  font-family: arial;
+  color: black;
+}
+
+.konten{
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 100px;
+  margin-left: 220px;
+}
+.main a{
+  text-decoration: none;
+  color: #0000FF;
+}
+.main a:hover{
+  color: #990000;
+}
+.main a:active{
+  color: #330099;
+}
+.main .arah{
+  display: inline-block;
+}
+.kotakhitam{
+  display: inline-block;
+  color: white;
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.main h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.main .tanggal{
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  margin-bottom: 1px;
+}
+.main .garis{
+    background-color: white;
+    width: 100%;
+    border-top: 1px solid black;
+    height: 10px;
+}
