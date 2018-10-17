@@ -1,0 +1,19 @@
+.mainn{
+  width: 80%;
+  margin-left: 20%;
+}
+.logonya img{
+    width: 15%;
+    margin-bottom: 30px;
+}
+.deskripsi {
+    width: 80%;
+    font-size: 17px;
+    font-family: arial;
+    margin-bottom: 100px;
+}
+.deskripsi p{
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 50px;
+}
