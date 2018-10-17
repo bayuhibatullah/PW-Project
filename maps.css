@@ -1,0 +1,82 @@
+.main .gambar img{
+  width: 600px;
+  height: 400px;
+  margin-top: 15px;
+  margin-left: 5%;
+  margin-bottom: 30px;
+}
+.main .isi{
+  text-align: justify;
+  text-indent: 40px;
+  line-height: 20px;
+}
+.list {
+  line-height: 20px;
+  list-style-type: decimal;
+  margin-left: 40px;
+}
+
+.overlay{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: .5s;
+  padding: auto;
+}
+.main .overlay:target{
+  width: auto;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.main .overlay img{
+  width: 1000px;
+  height: 600px;
+  margin-left: 180px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+.cover .konten .main .overlay:target img{
+  animation: animasi1 1s;
+}
+.overlay .close{
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid white;
+  line-height: 10px;
+  padding: 5px;
+  opacity: 0;
+}
+.overlay:target .close{
+  animation: animasi2 .5s .5s forwards;
+}
+@keyframes animasi1 {
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes animasi2 {
+  0%{
+    opacity: 0;
+    margin-top: -20px;
+  }
+  100%{
+    opacity: 1;
+    margin-top: 0;
+  }
+}
