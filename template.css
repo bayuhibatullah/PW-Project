@@ -1,0 +1,161 @@
+.topheader{
+  display: inline-block;
+  background-color: #990000;
+  height: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: white;
+}
+.topheader ul li {
+  display: inline-block;
+  padding: 8px;
+}
+.awal{
+  font-size: 11px;
+  margin-right: 100px;
+}
+.topheader ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  font-weight: bold;
+}
+.topheader ul li a:hover{
+  color: black;
+  background-color: white;
+  padding-bottom: 8px;
+}
+.topheader ul li a:active{
+  color: white;
+  background-color: #330099;
+  padding-bottom: 8px;
+}
+.navigasi{
+  border-bottom: 2px solid black;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 60px;
+  text-decoration: none;
+}
+.navigasi img{
+  weight: 130px;
+  height: 60px;
+  float: left;
+  margin-left: 50px;
+  margin-right: 150px;
+}
+.navigasi .gambar{
+  display: inline-block;
+  background-color: red;
+  border-top: 1px solid black;
+}
+.navigasi ul li{
+  display: inline-block;
+  margin: 20px 40px;
+}
+.navigasi ul li a{
+  text-decoration: none;
+  color: black;
+}
+.navigasi ul li a:hover{
+  color: #990000;
+}
+.navigasi ul li a:active{
+  color: #330099;
+}
+.navigasi span{
+  color: red;
+}
+.sidebar{
+  display: inline-block;
+  background-color: white;
+  float: right;
+  width: 152px;
+  margin-right: 220px;
+  margin-top: 5px;
+  font-family: agency fb;
+  font-size: 15px;
+}
+.sidebar .kotakorange{
+  display: inline-block;
+  background-color: #FF9900;
+  width: 100%;
+  color: white;
+  height: 17px;
+  weight: 141px;
+  padding: 6px;
+  margin-bottom: 30px;
+}
+.sidebar .isikotakorange ul li{
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #C0C0C0;
+  padding-left: 5px;
+}
+.sidebar .isikotakorange ul li a{
+  text-decoration: none;
+  color: black;
+}
+.sidebar .isikotakorange ul li a:hover{
+  color: #990000;
+}
+.sidebar .isikotakorange ul li a:active{
+  color: #330099;
+}
+.sidebar .kotakmerah{
+  display: inline-block;
+  background-color: #990000;
+  width: 100%;
+  color: white;
+  height: 17px;
+  weight: 141px;
+  padding: 6px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.sidebar img{
+  width: 152px;
+  height: 149px;
+  margin-left: 6px;
+}
+.Form {
+  display: inline-block;
+  weight: 500px;
+  background-color: #CCCCCC;
+  margin-bottom: 50px;
+  margin-left: 220px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.Form h2{
+  font-weight: bold;
+}
+.Form input, button, textarea{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer{
+  display: inline-block;
+  background-color: #990000;
+  height: 30px;
+  weight: 500px;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  color: white;
+}
+.footer li{
+  display: inline-block;
+  margin-top: 9px;
+  text-align: center;
+}
+.footer ul li .depan{
+  margin-left: 10px;
+  margin-right: 1100px;
+}
+.footer ul li .belakang{
+  margin-right: 10px;
+}
